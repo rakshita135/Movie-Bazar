@@ -1,0 +1,21 @@
+.blog-list{
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    background-color: #cad7f0;
+  }
+  .blog-item{
+    border: 2px solid rgb(16, 15, 15);
+    background-color: white;
+    margin: 3px;
+    list-style: none;
+    width: 70%;
+  }
+  .blog-item a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+  }
+  .blog-item:hover{
+    background-color: rgb(250, 250, 140);
+  }

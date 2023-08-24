@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.count-add-btn{
+  background-color: #282c34;
+  color: aliceblue;
+}
+.count-sub-btn{
+  background-color: bisque;
+}
+
+
+.nav1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.comp {
+  float: left;
+}
+
+.comp a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.comp a:hover {
+  background-color: #111;
+}
+
+  .box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 300px; 
+    
+
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .card {
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom right, rgb(105, 6, 151),pink,rgb(158, 37, 218));
+  box-shadow: 0 4px 8px 0 rgba(230, 14, 168, 0.837);
+  transition: 0.3s;
+  width: 40%;
+  height: 300px;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 42%;
+  height: 303px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
